@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>APS</title>
+</head>
+
+<body>
+    <script src="script.js"></script>
+
+    <form id="addForm" style="display:none;">
+      
+        <H2>Adicionar na Lista 
+        </H2>
+        <label for="name">Nome do Anime:</label>
+        <input type="text" id="name" required  placeholder="______________"> <br>
+        <label for="year">Data:</label>
+        <input type="number"  id="year" required placeholder="______________"><br>
+        <label for="genres">Gêneros:</label>
+        <input type="text" id="genres" required placeholder="______________"><br>
+        <label for="link">Link:</label>
+        <input type="text" id="link" required placeholder="______________"><br>
+        <label for="img">Imagem:</label>
+        <input type="text" id="img" required placeholder="______________"><br>
+        <button type="submit" onclick="addAnime()">Adicionar</button>
+    </form>
+  
+    <div id="navbar">
+        <nav>
+            <ul class="nav-links">
+                <li class="link"><a href="index.html">Home</a></li>
+                <li id="link2" class="link"><a href="anime.html">Animes</a></li>
+                <li id="link3" class="link"><a href="filme.html">Filmes</a></li>
+                <li id="link4" class="link"><a href="manga.html">Mangas</a></li>
+                <li id="link5" class="link"><a href="livro.html">Livros</a></li>
+                <li id="link6" class="link"><a href="serie.html">Series</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="video-container">
+      <video playsinline autoplay muted loop>
+        <source src="videos/Opening Book Animation Template 4k 60fps.mp4" type="video/mp4">
+      </video>
+    </div>
+  
+    <div class="list">
+      <h1 class="title">LIVROS</h1>
+      <ul>
+        
+      </ul>
+    </div>
+  </body>
